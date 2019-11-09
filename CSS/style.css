@@ -1,0 +1,303 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0);
+}
+
+:root {
+    --text-color-white: white;
+    --text-color-theme: rgb(230, 0, 0);
+}
+
+nav {
+    height: 3rem;
+    max-width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 1.5rem 3rem;
+}
+
+.navbar_logo {
+    flex: 6%;
+    max-width: 6%;
+    height: 100%;
+}
+
+.navbar_logo img {
+    width: 80%;
+    height: 100%;
+}
+
+.navbar_title {
+    color: var(--text-color-white);
+    flex: 8%;
+    max-width: 8%;
+    height: 100%;
+}
+
+.navbar_title h4,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_middle {
+    flex: 50%;
+    max-width: 50%;
+    color: var(--text-color-white);
+    padding: 0.5rem;
+    text-align: center;
+    /* background-color: rebeccapurple; */
+}
+
+.navbar_middle h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_search {
+    flex: 14%;
+    max-width: 14%;
+}
+
+.navbar_notifications {
+    /* background-color: var(--text-color-theme); */
+    max-width: 8%;
+    flex: 8%;
+}
+
+.navbar_pic {
+    max-width: 8%;
+    flex: 8%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    border: 2px solid var(--text-color-theme);
+    width: 4rem;
+    height: 4rem;
+    background-image: url("../images/divyansh gupta2.jpg");
+    background-size: cover;
+}
+
+.main_content {
+    display: flex;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+main {
+    flex: 56%;
+    max-width: 56%;
+    padding: 2rem 3% 2rem 6%;
+}
+
+.main_latest_release {
+    color: var(--text-color-white);
+    width: 100%;
+}
+
+.main_latest_release_content {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.main_latest_release_content_div {
+    flex: 50%;
+    max-width: 50%;
+    /* background-color: cyan; */
+    display: flex;
+    margin-top: 1rem;
+}
+
+.main_latest_release_content_div img {
+    height: 6rem;
+    width: 30%;
+    flex: 30%;
+}
+
+.main_latest_release_content_div_content {
+    padding-left: 1rem;
+    width: 50%;
+    flex: 50%;
+}
+
+.main_latest_release_content_div_side_content {
+    flex: 16%;
+    max-width: 16%;
+    padding: 1rem;
+}
+
+.main_latest_release_content_div_side_content h5 {
+    padding: 0;
+    margin-top: .5rem;
+}
+
+.main_latest_release_content_div_side_content i:hover {
+    cursor: pointer;
+}
+
+.main_popular_artists {
+    width: 100%;
+    color: var(--text-color-white);
+    margin: 4rem 0 3rem 0;
+}
+
+.main_popular_artists_div {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.main_popular_artists_div img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.main_stations {
+    color: var(--text-color-white);
+    display: flex;
+    max-width: 100%;
+    background-color: var(--text-color-theme);
+    height: 8rem;
+}
+
+.main_stations_img {
+    flex: 12%;
+    max-width: 12%;
+    position: relative;
+}
+
+.main_stations_img h5 {
+    position: absolute;
+    left: 8%;
+    top: 10%;
+}
+
+.main_stations_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_stations_div {
+    display: flex;
+    max-width: 12%;
+    position: relative;
+    margin: 3% 1%;
+}
+
+.main_stations_div img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* opacity: ; */
+}
+
+.main_stations_div h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_diff_section {
+    display: flex;
+    max-width: 100%;
+    margin: 4rem 0rem;
+}
+
+.main_diff_section div {
+    flex: 30%;
+    max-width: 30%;
+    margin-right: 2%;
+    color: var(--text-color-white);
+    position: relative;
+}
+
+.main_diff_section div img {
+    width: 100%;
+    height: inherit;
+    opacity: 0.7;
+}
+
+.main_diff_section div h3 {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color-white);
+}
+
+.main_latest_hindi {
+    width: 100%;
+    color: var(--text-color-white);
+    margin: 4rem 0 3rem 0;
+}
+
+.main_latest_hindi_div {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.main_latest_hindi_div_content {
+    margin: 1rem 0 1rem 0;
+}
+
+.main_latest_hindi_div_content h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.main_latest_hindi_div img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.main_latest_english {
+    width: 100%;
+    color: var(--text-color-white);
+    margin: 4rem 0 3rem 0;
+}
+
+.main_latest_english_div {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.main_latest_english_div_content {
+    margin: 1rem 0 1rem 0;
+}
+
+.main_latest_english_div_content h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.main_latest_english_div img {
+    width: 6rem;
+    height: 6rem;
+}
+
+aside {
+    flex: 25%;
+    max-width: 25%;
+    padding: 2rem 3% 2rem 7%;
+    background-color: yellow;
+}
