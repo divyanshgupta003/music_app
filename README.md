@@ -9,7 +9,7 @@ Link for viewing the above app :-https://musicapp-1.divyansh123.repl.co/
 Single Playlist<br>
 ![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(48).png)
 <br>
-Mobile View<br>
-![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(49).png)
+<strong>Mobile View</strong><br>
+![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(49).png)<t>
 ![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(51).png)
 
