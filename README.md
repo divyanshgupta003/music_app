@@ -10,6 +10,6 @@ Single Playlist<br>
 ![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(48).png)
 <br>
 <strong>Mobile View</strong><br>
-![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(49).png)<t>
+![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(49).png)<t><t><t><t><t>
 ![Image description](https://github.com/divyanshGupta003/music_app/blob/master/images/(51).png)
 
